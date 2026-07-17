@@ -1,0 +1,11 @@
+node_modules
+dist
+data
+.env
+.git
+.gitignore
+*.xlsx
+scripts
+README.md
+CLAUDE.md
+COLUMBIA_HOUSING_BUILDER.md

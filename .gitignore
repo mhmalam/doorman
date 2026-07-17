@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+data/
+registry.custom.json
+# occupancy exports stay local — mount or upload them, don't commit them
+*.xlsx
+*.csv

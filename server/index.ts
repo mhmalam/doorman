@@ -250,7 +250,7 @@ if (existsSync(dist)) {
   });
 }
 
-const port = Number(process.env.PORT ?? 3001);
+const port = Number(process.env.PORT ?? 3000);
 app.listen(port, () => {
   console.log(`Doorman proxy listening on :${port} (token ${process.env.ASANA_TOKEN ? 'present' : 'MISSING'})`);
 });

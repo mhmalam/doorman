@@ -17,7 +17,7 @@ COPY --from=build /app/dist ./dist
 COPY server ./server
 COPY tsconfig.json ./
 
-EXPOSE 3001
+EXPOSE 3000
 # Required env at runtime: ASANA_TOKEN, ASANA_WORKSPACE_GID, APP_PASSWORD
 # Optional: PORT, OCCUPANCY_FILE (mount the spreadsheet and point at it)
 CMD ["npx", "tsx", "server/index.ts"]
